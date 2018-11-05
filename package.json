@@ -1,6 +1,6 @@
 {
   "name": "apina",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mock and cache API responses locally.",
   "author": "Evil Corp <matias@evilcorp.fi>",
   "main": "index.js",
@@ -26,5 +26,5 @@
     "eslint-plugin-prettier": "^3.0.0",
     "prettier": "^1.14.3"
   },
-  "licence": "MIT"
+  "license": "MIT"
 }

@@ -14,7 +14,7 @@ const URLToFilename = url => url.replace(/[^a-z0-9]/gi, '_').toLowerCase();
 const PORT = 5454;
 const URL = process.argv.slice(2)[0];
 
-const baseDir = path.join(__dirname, `apina_cache/`);
+const baseDir = path.join(process.env.INIT_CWD, `apina_cache/`);
 const server = express();
 
 (async () => {
