@@ -1,0 +1,30 @@
+{
+  "name": "apina",
+  "version": "0.1.0",
+  "description": "Mock and cache API responses locally.",
+  "author": "Evil Corp <matias@evilcorp.fi>",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkaski/apina"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3"
+  },
+  "licence": "MIT"
+}
